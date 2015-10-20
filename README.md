@@ -1,4 +1,4 @@
-#Outset Dock Profiler
+#Outset Profiler
 
 This script creates a package to use with [Outset](https://github.com/chilcote/outset) that will install a user-level profile for a specific user of your choice.
 
