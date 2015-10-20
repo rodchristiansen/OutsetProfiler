@@ -11,8 +11,8 @@ Although any user-level profile will do, my primary usage for this is Dock profi
 ##Usage
 
 ```
-$ ./dock_profiler.py -h
-usage: dock_profiler.py [-h] -p PROFILE -n NAME [-i IDENTIFIER] [-o OUTPUT]
+$ ./OutsetProfiler.py -h
+usage: OutsetProfiler.py [-h] -p PROFILE -n NAME [-i IDENTIFIER] [-o OUTPUT]
                         [--once] [-s IDENTITY] [-v VERSION]
 
 Creates a package for Outset that will install a profile for a specific user
@@ -51,7 +51,7 @@ The required arguments are `--profile` (path to a profile) and `--name` (the nam
 ## Example
 
 ```
-./dock_profiler.py -p DockStudent.mobileconfig -n student -i org.sacredsf.profile.dock.student -o Outset-Dock-Student.pkg --sign "Developer ID Installer" --version 2.0
+./OutsetProfiler.py -p DockStudent.mobileconfig -n student -i org.sacredsf.profile.dock.student -o Outset-Dock-Student.pkg --sign "Developer ID Installer" --version 2.0
 
 productbuild: Using timestamp authority for signature
 productbuild: Signing product with identity "Developer ID Installer" from keychain /Users/nmcspadden/Library/Keychains/login.keychain
